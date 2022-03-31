@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version name="我是attrib">3.2</version>
+    <date name="我是date的attrib-name" vendor='我是date的attrib-vendor'>2017-10-27T08:30:54Z</date>
+    <groups>
+        <group>
+            <name>JX-SERVER</name>
+        </group>
+    </groups>
+          </hosts>
+    </hosts>
+</zabbix_export>

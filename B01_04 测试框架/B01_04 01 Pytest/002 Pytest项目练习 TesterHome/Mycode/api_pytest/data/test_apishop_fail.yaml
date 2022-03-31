@@ -1,0 +1,15 @@
+---
+tests:
+- case: 验证响应中start和count与请求中的参数一致
+  http:
+    method: GET
+    path: /common/joke/getJokesByRandom
+    headers:
+      User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+    params:
+      apikey: GJXZpTX599fb46a77353776bdf7f3e746405b472379e292
+      pageSize: 20
+  expected:
+    response:
+      statusCode: 100001
+      desc: 传递的apiKey非法或格式不正确
