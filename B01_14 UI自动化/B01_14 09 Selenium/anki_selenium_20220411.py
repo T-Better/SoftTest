@@ -11,5 +11,8 @@ select = Select(driver.find_element_by_id())
 e1 = WebDriverWait(driver,10,1,).until()
 e1.send_keys('admin')
 
+# selenium获取数据的函数是什么？怎么用？类似于requests.get()
+
+'. [] [^] * + ? {num} (xyz) | \  ^ $'
 
 
