@@ -5,6 +5,7 @@ import random
 now_time_stamp = str(int(dt.datetime.now().timestamp()))  # 获取当前时间戳小数点前面的内容
 
 wp1 = r'D:\BaiduNetdiskWorkspace\Super_coder\O03_Office_Auto_My_code\Excel_001_读写excel\a\test{}.xlsx'.format(now_time_stamp)
+p2 = r'D:\Git_Reps\SoftTest\B01_02 常用Python包学习\B01_02 10 Python_Excel\002 Docs\test{}.xlsx'.format(now_time_stamp)
 print(wp1)
 
 # 创建工作簿
@@ -32,4 +33,4 @@ for i in range(1,11):
     ws2 = wb1.copy_worksheet(ws1)
     ws2.title = "{}号".format(i+1)
 
-wb1.save(wp1)
+wb1.save(p2)
