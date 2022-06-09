@@ -37,5 +37,25 @@ option = webdriver.ChromeOptions()
 option.binary_location = r'D:\work\Goole\Chrome\Application\chrome.exe'
 driver = webdriver.Chrome()
 
+#将滚动条滑到最顶层
+js2 = "window.scrollTo(0,0)"
+driver.execute_script(js2)
+
+# selenium定位用户名输入框并输入制表符
+driver.find_element(By.ID,'input').send_keys(Keys.TAB)
+
+# 判断页面中的span标签是否可见
+driver.find_element(By.NAME,'sp1').is_displayed()
+
+# 获取当前页面url
+driver.current_url
+
+# 模拟鼠标悬停在‘注册’按钮上
+action.move_to_element(e1).perform()
+
+driver.get_cookie()
+
+
+
 driver.close()
 
