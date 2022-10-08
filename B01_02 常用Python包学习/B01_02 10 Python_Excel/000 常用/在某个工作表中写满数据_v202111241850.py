@@ -5,10 +5,10 @@ import os
 
 now_time_stamp = str(int(dt.datetime.now().timestamp()))  # 获取当前时间戳小数点前面的内容
 
-wp1 = r'D:\BaiduNetdiskWorkspace\Super_coder\O03_Office_Auto_My_code\Excel_001_读写excel\a\test{}.xlsx'.format(now_time_stamp)
+# wp1 = r'D:\BaiduNetdiskWorkspace\Super_coder\O03_Office_Auto_My_code\Excel_001_读写excel\a\test{}.xlsx'.format(now_time_stamp)
 # p2 = r'D:\Git_Reps\SoftTest\B01_02 常用Python包学习\B01_02 10 Python_Excel\002 Docs\test{}.xlsx'.format(now_time_stamp)
-p2 = r'D:\Git_Reps\SoftTest\Soft_test\SoftTest\B01_02 常用Python包学习\B01_02 10 Python_Excel\002 Docs\test{}.xlsx'.format(now_time_stamp)
-print(wp1)
+p2 = r'D:\Git_Reps\SoftTest\Soft_test\SoftTest\B01_02 常用Python包学习\B01_02 10 Python_Excel\002 Docs\anki_{}.xlsx'.format(now_time_stamp)
+print(p2)
 
 # 创建工作簿
 wb1 = opx.Workbook()
