@@ -18,8 +18,8 @@ def get_inf():
             "职业":"测试",
             "公司":"测试公司"
         }
-    return json.dumps(data)
-
+    # return json.dumps(data, encoding='utf-8')
+    return data
 
 if __name__ == "__main__":
     app.run(host = '127.0.0.1',port=8888)
