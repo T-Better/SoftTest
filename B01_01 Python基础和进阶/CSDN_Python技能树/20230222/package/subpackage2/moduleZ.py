@@ -1,0 +1,2 @@
+def eggs():
+    return 'eggs'
