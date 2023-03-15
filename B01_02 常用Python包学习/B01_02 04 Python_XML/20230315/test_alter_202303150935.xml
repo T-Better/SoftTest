@@ -1,0 +1,56 @@
+<zabbix_export>
+    <version name="&#25105;&#26159;attrib">3.2</version>
+    <date name="&#25105;&#26159;date&#30340;attrib-name" vendor="&#25105;&#26159;date&#30340;attrib-vendor">2017-10-27T08:30:54Z</date>
+    <groups>
+        <group>
+            <name>JX-SERVER</name>
+        </group>
+    </groups>
+    <host3>
+        <host>
+            <host>GYSERVER</host>
+            <name>GYSERVER</name>
+            <description />
+            <proxy />
+            <status>0</status>
+            <ipmi_authtype>-1</ipmi_authtype>
+            <ipmi_privilege>2</ipmi_privilege>
+            <ipmi_username />
+            <ipmi_password />
+            <tls_connect>1</tls_connect>
+            <tls_accept>1</tls_accept>
+            <tls_issuer />
+            <tls_subject />
+            <tls_psk_identity />
+            <tls_psk />
+            <templates>
+                <template>
+                    <name>Template OS Windows</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>JX-SERVER</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <default>1</default>
+                    <type>1</type>
+                    <useip>1</useip>
+                    <ip>172.17.200.116</ip>
+                    <dns />
+                    <port>10050</port>
+                    <bulk>1</bulk>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <applications />
+            <items />
+            <discovery_rules />
+            <httptests />
+            <macros />
+            <inventory />
+        </host>
+    </host3>
+</zabbix_export>
