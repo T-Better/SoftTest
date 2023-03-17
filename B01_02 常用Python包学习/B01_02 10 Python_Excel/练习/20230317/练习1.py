@@ -22,12 +22,27 @@ ws2 = wb1['2号']
 # TODO
 
 # 冻结test.xlsx的Sheet1的第一行
-ws2.freeze_panes = 'A2'
+# ws2.freeze_panes = 'A2'
 
 # 在某个excel的第二个sheet页第五列后面删除1列
-ws2.delete_cols(5,1)
+# ws2.delete_cols(5,1)
 
 # 标题加粗 22号 微软雅黑；正文：宋体 11号；重点：红色加粗倾斜单下划线11号字体
+# TODO
+
+# 求第三行所有数字之和并将结果写入第三行最后一列
+# ws2['K4'] = '=sum(A4:J4)'
+
+# 除了9月份的工作表以外都删除
+# wb1.remove(wb1['1号'])
+
+# 获取test.xlsx第一个工作表名称并将其重命名为1月
+# wb1['3号'].title='3月'
+
+# 设置第一行高30，第一列宽15
+# TODO
+
+# 按行 按列取数据
 # TODO
 
 wb1.save(p+f1)
