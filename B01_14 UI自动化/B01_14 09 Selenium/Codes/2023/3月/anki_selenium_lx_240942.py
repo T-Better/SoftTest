@@ -10,6 +10,7 @@ driver.get(cdp)
 driver.set_window_size(1000,1000)
 time.sleep(2)
 
+
 driver.close()
 
 
