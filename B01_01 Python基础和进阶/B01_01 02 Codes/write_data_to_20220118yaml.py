@@ -1,9 +1,0 @@
-# write_data_to_20220118yaml.py
-import yaml
-
-data = {"s_data":{"test1":"hello1"},"sdata2":{"name":"newroman_1"}}
-
-with open('data_20220118.yaml','w') as f:
-    yaml.dump(data,f,encoding='utf8',allow_unicode=True)
-
-
