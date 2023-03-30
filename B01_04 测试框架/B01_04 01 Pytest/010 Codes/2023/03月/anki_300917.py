@@ -56,11 +56,12 @@ def other():
 
 # 使用fixture传递测试数据格式举例
 # a_tuple为fixture，传给test_a_tuple
-
+@pytest.fixture
 def a_tuple():
     return 1
 
 def test_a_tuple(a_tuple):
     assert a_tuple == 1
 
+# 多组key:value参数化
 
