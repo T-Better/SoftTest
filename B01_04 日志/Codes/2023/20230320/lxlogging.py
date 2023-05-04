@@ -10,7 +10,7 @@ logger.setLevel(logging.DEBUG)
 
 # 设置写到哪里
 rf_handler = logging.handlers.TimedRotatingFileHandler(
-    filename='20230320.log',when='midnight',interval=1,backupCount=7,atTime=dt.time(0,0,0,0)
+    filename='20230320.log',when='midnight',interval=1,backupCount=7,atTime=dt.time(0, 0, 0, 0)
 )
 
 # 写的格式
