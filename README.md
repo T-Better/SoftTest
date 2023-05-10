@@ -9,39 +9,39 @@ shell作品：
 - 5、接口自动化测试代码：使用unittest+session实现，parameterized实现参数化，HTMLTestRunner实现自动化生成测试报告；case包含登录成功、密码错误、用户不存在三种，可自行扩展
 
 ----------------------------
-自动化测试学习路线
-1. Python基础和进阶
-2. 常用Python包学习\
-    2.2 xml\
-    2.4 paramiko\
-    2.6 os库\
-    2.8 numpy\
-    2.10 treelib
+自动化测试学习路线\
++ [x] 1、Python基础和进阶\
+2、常用Python包学习\
+    + [x] 2.2 xml\
+    + [x] 2.4 paramiko\
+    + [x] 2.6 os库\
+    + [ ] 2.8 numpy\（用到再复习，学过）
+    + [ ] 2.10 treelib（用到再复习，学过） 
 3. 日志模块\
-    3.1 logging\
-    3.2 nb_log
-4. linux
+    + [x] 3.1 logging\
+    3.2 nb_log（用到再复习，学过）
++ [x] 4、linux
 5. 接口测试
-    - 接口测试框架开发
-    - 持续集成技术：Git、Jenkins
-    - Mock
-    - Moco框架
-    - webservice
-    - 两个项目
-6. 数据库\
-    6.1 pymysql
+    + [ ]  接口测试框架开发
+    + [ ]  持续集成技术：Git、Jenkins
+    + [ ]  Mock
+    + [ ]  Moco框架
+    + [ ]  webservice
+    + [ ]  两个项目\
+6、数据库
+    + [x] 6.1 pymysql
 7. 测试框架\
-    7.1 pytest\
-    7.2 unittest
-8. 测试报告\
-    8.1 Allure
-9. UI自动化\
-    9.1 selenium
-10. docker和k8s
-11. 其它补充\
-    11.1 Git
+    7.1 pytest（待实践）
+    + [x] 7.2 unittest
+8. 测试报告
+    + [x] 8.1 Allure(待实践)
+9. UI自动化
+    + [ ] 9.1 selenium(待实践)
++ [x] 10、docker和k8s
+11. 其它补充
+    + [x] 11.1 Git
 12. 作品\
-———————————————————————————
+———————————————
 13. 5月目标
 - 1、接口自动化学完！
     - 接口测试框架开发
