@@ -4,8 +4,9 @@
 shell作品：
 - 1、持久测试_监控linux系统Cpu、内存、Python进程等shell脚本；
 - 2、根据空间使用率清日志:Shell脚本；
-- 3、Jmeter脚本：并发、持久稳定性、资源占用等；
+- 3、Jmeter脚本：并发、持久稳定性、响应时间、资源占用等；
 - 4、Flask的Mock脚本；
+- 5、接口自动化测试代码：使用unittest+session实现，parameterized实现参数化，HTMLTestRunner实现自动化生成测试报告；case包含登录成功、密码错误、用户不存在三种，可自行扩展
 
 ----------------------------
 自动化测试学习路线
