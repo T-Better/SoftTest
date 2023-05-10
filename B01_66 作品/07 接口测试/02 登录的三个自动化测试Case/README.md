@@ -1,0 +1,6 @@
+- 1、本次接口自动化case用的是unittest+session方式
+- 2、测试case包含了登陆成功、密码错误、用户不存在三种case
+- 3、使用了HTMLTestRunner来生成测试报告，未存在report中
+- 4、执行入库是test11_测试报告
+- 5、用了parameterized参数化方式，一个一个函数多个参数case；
+- 6、注意：HTMLTestRunner.py是第三方库生成的，下载下来放到同层目录，放文件夹中 使用相对路径行不通，绝对路径会报错，暂时这样吧
