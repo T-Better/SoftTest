@@ -2,13 +2,14 @@
 import json
 import requests
 import unittest
+from .. import app
 from ..api.login import LoginAPI
 from parameterized import parameterized
 
 
 # 构造测试数据
 def build_data():
-    json_file = "../data/login.json"
+    json_file = app.BASE_DIR + "/data/login.json"
     test_data = []
     with open(json_file, encoding="utf-8") as f:
         json_data = json.load(f)
