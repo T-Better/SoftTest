@@ -7,7 +7,8 @@ shell作品：
 - 3、Jmeter脚本：并发、持久稳定性、响应时间、资源占用等；
 - 4、Flask的Mock脚本；
 - 5、接口自动化测试代码：使用unittest+session实现，parameterized实现参数化，HTMLTestRunner实现自动化生成测试报告；case包含登录成功、密码错误、用户不存在三种，可自行扩展
-
+- 7、其他脚本：
+  - python+selenium写的抢购脚本
 ----------------------------
 自动化测试学习路线\
 + [x] 1、Python基础和进阶\
