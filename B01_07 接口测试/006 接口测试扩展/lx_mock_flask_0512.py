@@ -1,5 +1,5 @@
 import json
-from flask import Flask,jsonify,request
+from flask import Flask,request
 
 
 # 创建一个应用对象
