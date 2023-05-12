@@ -1,0 +1,140 @@
+[
+  {
+    "desc": "case001 登录成功",
+    "login_data": {
+      "mobile": "13800000002",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "desc": "case002 不输入手机号",
+    "login_data": {
+      "mobile": "",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case003 不输入密码",
+    "login_data": {
+      "mobile": "13800000002",
+      "password": ""
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case004 手机长度小于11位",
+    "login_data": {
+      "mobile": "1380000000",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case005 手机场地大于11位",
+    "login_data": {
+      "mobile": "138000000023",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case006 手机号输入非数字",
+    "login_data": {
+      "mobile": "error",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case007 输入未注册手机号",
+    "login_data": {
+      "mobile": "13812321236",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case008 多参",
+    "login_data": {
+      "mobile": "13800000002",
+      "password": "123456",
+      "haha": "xixi"
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  {
+    "desc": "case009 少参-缺少手机号",
+    "login_data": {
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case010 少参-缺少密码",
+    "login_data": {
+      "mobile": "13800000002"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case011 无参",
+    "status_code": 200,
+    "success": false,
+    "code": 99999,
+    "message": "抱歉，系统繁忙"
+  },
+  {
+    "desc": "case012 错误参数-手机号",
+    "login_data": {
+      "mobiel": "13800000002",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  },
+  {
+    "desc": "case013 错误参数-密码",
+    "login_data": {
+      "mobile": "13800000002",
+      "passwd": "123456"
+    },
+    "status_code": 200,
+    "success": false,
+    "code": 20001,
+    "message": "用户名或密码错误"
+  }
+]
