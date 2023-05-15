@@ -1,17 +1,26 @@
 # SoftTest
 ### 学如逆水行舟，不进则退！！！切记！切记！
-作品：见作品文件夹\
-shell作品：
-- 1、持久测试_监控linux系统Cpu、内存、Python进程等shell脚本；
-- 2、根据空间使用率清日志:Shell脚本；
-- 3、Jmeter脚本：并发、持久稳定性、响应时间、资源占用等；
-- 4、接口：
-  - 4.1 接口自动化测试：使用unittest+session实现，parameterized实现参数化，HTMLTestRunner实现自动化生成测试报告；case包含登录成功、密码错误、用户不存在三种，可自行扩展；
-  - 4.2 Flask的Mock脚本；
-- 5、其他脚本：
-  - python+selenium写的抢购脚本；
-- 10、个人博客
-  - https://www.cnblogs.com/T-Better/
+作品：见作品文件夹
+
+### 07 接口自动化：
+  - 接口自动化测试：使用unittest+session实现，parameterized实现参数化，HTMLTestRunner实现自动化生成测试报告；case包含登录成功、密码错误、用户不存在三种，可自行扩展；
+  - 接口测试扩展
+    - 登录MOCK：Flask； 
+
+### 09 性能测试脚本
+  - Jmeter：多用户并发、稳定性、响应时间、资源占用等；
+  - Shell:
+    - 持久测试_监控linux系统Cpu、内存、Python进程等shell脚本；
+  - 根据空间使用率清日志:Shell脚本；
+### 14 UI自动化测试：
+  - 网页计算器自动化测试
+
+### 66 其他脚本：
+    - python+selenium写的抢购脚本；
+
+---------------------------
+个人博客：
+https://www.cnblogs.com/T-Better/
 ----------------------------
 自动化测试学习路线\
 + [x] 1、Python基础和进阶\
@@ -46,12 +55,12 @@ shell作品：
 12. 作品\
 ———————————————
 13. 5月目标
-- 1、接口自动化学完！
+- 1、自动化学完！
     - 接口测试框架开发
     - 持续集成技术：Jenkins
     - Mock
     - Moco框架
     - webservice
-    - 做两个项目
-    - 结合项目产出
+    - 做个接口自动化项目出来
+    - 做个UI自动化项目出来
 - 2、anki复习，温顾而知新！
