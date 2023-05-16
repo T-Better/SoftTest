@@ -11,13 +11,13 @@
   - Jmeter：多用户并发、稳定性、响应时间、资源占用等；
   - Shell:
     - 持久测试_监控linux系统Cpu、内存、Python进程等shell脚本；
-  - 根据空间使用率清日志:Shell脚本；
+  
 ### 14 UI自动化测试：
   - 网页计算器自动化测试
 
 ### 66 其他脚本：
     - python+selenium写的抢购脚本；
-
+    - 清日志Shell脚本；对原代码重新优化封装（根据po设计模式）
 ---------------------------
 个人博客：
 https://www.cnblogs.com/T-Better/
