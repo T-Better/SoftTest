@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 import os
-
+"""封装读取数据文件的方法"""
 
 class ExcelUtil(object):
     def __init__(self, excel_path=None, sheet_name=None):
