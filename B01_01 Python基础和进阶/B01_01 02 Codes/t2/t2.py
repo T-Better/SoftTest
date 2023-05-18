@@ -1,6 +1,7 @@
-def sayhello():
-    print('Hello World')
+class test01(object):
+    def sayhello(self):
+        print('Hello World')
 
 
-def world():
-    print('world')
+    def world(self):
+        print('world')

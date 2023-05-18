@@ -1,8 +1,6 @@
-import sys
-sys.path.append('D:\\BaiduNetdiskWorkspace\\Super_coder\\Soft_test\\Python从入门到年薪100万\\B03_03 02 128天精通Python')
-import scripts.hello
+# 从t2包中导入sayhello和word两个方法
 
-hello.sayhello()
+
 
 
 

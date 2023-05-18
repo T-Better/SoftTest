@@ -6,7 +6,7 @@ import time
 
 
 p = r'D:\Program Files\pagetest\注册A.html'
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get(p)
 
 action = ActionChains(driver)
