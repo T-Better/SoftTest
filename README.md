@@ -43,7 +43,7 @@ https://www.cnblogs.com/T-Better/
 6、数据库
     + [x] 6.1 pymysql
 7. 测试框架\
-    7.1 pytest（待实践）
+    + [x] 7.1 pytest
     + [x] 7.2 unittest
 8. 测试报告
     + [x] 8.1 Allure
@@ -53,14 +53,5 @@ https://www.cnblogs.com/T-Better/
 11. 其它补充
     + [x] 11.1 Git
 12. 作品\
-———————————————
-13. 5月目标
-- 1、自动化学完！
-    - 接口测试框架开发
-    - 持续集成技术：Jenkins
-    - Mock
-    - Moco框架
-    - webservice
-    - 做个接口自动化项目出来
-    - 做个UI自动化项目出来
-- 2、anki复习，温顾而知新！
+———————————————\
+#### 注意：因工作桌面和本地桌面数据不通且保密，故不放工作项目中代码，而放平时练手项目，还请谅解！
