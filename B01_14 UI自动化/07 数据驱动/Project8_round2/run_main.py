@@ -7,10 +7,11 @@ project:TYNAM后台管理系统
 
 import os, time, unittest
 from HTMLTestRunner import HTMLTestRunner
+from app import BASE_DIR
+
 
 # 获取当前路径
-current_path = os.path.abspath(os.path.dirname(__file__))
-report_path = current_path + r"\report"
+report_path = BASE_DIR + r"\report"
 # 获取当前时间
 now = time.strftime("%Y%m%d%H%M", time.localtime(time.time()))
 
