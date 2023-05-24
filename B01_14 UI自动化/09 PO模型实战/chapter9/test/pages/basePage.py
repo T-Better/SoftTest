@@ -1,6 +1,7 @@
 import os
 from time import sleep
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 
 class BasePage(object):
@@ -20,7 +21,7 @@ class BasePage(object):
             self.driver = driver
 
         if base_url is None:
-            self.base_url = 'http://localhost:18908/#/'
+            self.base_url = 'http://localhost:30813/#/'
         else:
             self.base_url = base_url
 
@@ -49,9 +50,9 @@ class BasePage(object):
         element：定位元素
         """
         sleep(1)
-        return self.driver.find_element(by,element)
+        return self.driver.find_element(by, element)
 
-    def find_elements(self,by,element):
+    def find_elements(self, by, element):
         """返回一组定位元素"""
         sleep(1)
         return self.driver.find_element(by, element)
@@ -61,3 +62,20 @@ class BasePage(object):
         sleep(1)
         return self.driver.switch_to.alert
 
+    def select_menu(self, menu_text):
+        """
+        左侧菜单选择：主页、关于我们、退出登录，即menus_element
+        menu_text：主页、关于我们、退出登录的文本内容（原生带空格的）
+        """
+        sleep(1)
+        menus_element = self.driver.find_elements(By.CSS_SELECTOR, "#menu>div>h4")
+        for menu in menus_element:
+            # replace(" ","")去掉字符串中的空格
+            if menu.text.replace(" ","") == menu_text.replace(" ",""):
+                return menu.click()
+        print(menu_text + "未找到")
+        return  # 为啥单return？不写是不是也可以呢？
+
+    def log_out(self):
+        """退出登录"""
+        return self.select_menu("退出登录")
