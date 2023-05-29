@@ -1,6 +1,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.by import By
 import time
 
 cdp = r'D:\Program Files\pagetest\注册A.html'
