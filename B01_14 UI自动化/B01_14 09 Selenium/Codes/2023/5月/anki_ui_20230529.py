@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import time
 
 cdp = r'D:\Program Files\pagetest\注册A.html'
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get(cdp)
 
 # 使用显式等待定位用户名输入框，如果元素存在，就输入admin

@@ -1,6 +1,7 @@
 import unittest
 from ..api.employee import EmployeeAPI
 from ..utils import common_assert
+
 # 创建员工测试类
 class TestEmployee(unittest.TestCase):
     employee_id = None
