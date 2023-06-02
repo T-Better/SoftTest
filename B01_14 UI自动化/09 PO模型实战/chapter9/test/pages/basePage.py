@@ -21,7 +21,7 @@ class BasePage(object):
             self.driver = driver
 
         if base_url is None:
-            self.base_url = 'http://localhost:30813/#/'
+            self.base_url = 'http://localhost:18425/#/'
         else:
             self.base_url = base_url
 
