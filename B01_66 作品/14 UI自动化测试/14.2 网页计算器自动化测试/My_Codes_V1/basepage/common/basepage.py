@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from time import sleep
 
 
@@ -13,6 +14,7 @@ class BasePage():
         """
         self.driver = webdriver.Firefox()
         self.calurl = r'http://cal.apple886.com/'
+        self.digit_btn = (By.ID, 'simple{}')
         self.open_page()
 
     def open_page(self):
@@ -31,11 +33,11 @@ class BasePage():
     #     """
     #     self.find_element(by,element)
 
-    def get_result(self):
-        """
-        获取屏幕输出结果
-        """
-        self.locator().text()
+    # def get_result(self):
+    #     """
+    #     获取屏幕输出结果
+    #     """
+    #     self.locator().text()
 
     def close_browser(self):
         """关闭浏览器"""
