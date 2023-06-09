@@ -5,7 +5,6 @@ from pages.cal_page import CalElement
 import pytest
 
 
-
 class TestCal():
     """
     计算测试 相当于业务层
@@ -17,21 +16,30 @@ class TestCal():
         res:实际计算结果
         """
         print(a, b, expect)
-        res = CalElement().add(a,b)   # 进行计算
-        print(res)
-        assert res == str(expect)
+        add_res = CalElement().add(a,b)   # 进行计算
+        print(add_res)
+        assert add_res == str(expect)
 
-    # def test_devide(self):
-    #     """测试减法"""
-    #     pass
-    #
-    # def test_multiply(self):
-    #     """测试乘法"""
-    #     pass
-    #
-    # def test_devide(self):
-    #     """测试除法"""
-    #     pass
+    @pytest.mark.parametrize('a,b,expect',get_jsondata('calsubtract.json'))
+    def test_subtract(self, a, b, expect):
+        """测试减法"""
+        subtract_res = CalElement().subtract(a,b)
+        print(subtract_res)
+        assert subtract_res == str(expect)
+
+    @pytest.mark.parametrize('a,b,expect',get_jsondata('calmultiply.json'))
+    def test_multiply(self, a, b, expect):
+        """测试乘法"""
+        multiply_res = CalElement().multiply(a, b)
+        print(multiply_res)
+        assert multiply_res == str(expect)
+
+    @pytest.mark.parametrize('a,b,expect', get_jsondata('caldevide.json'))
+    def test_devide(self, a, b, expect):
+        """测试除法"""
+        devide_res = CalElement().devide(a, b)
+        print(devide_res)
+        assert devide_res == str(expect)
 
 if __name__ == "__main__":
     testcal = TestCal()

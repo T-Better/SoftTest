@@ -1,9 +1,20 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from utils.singledriver import SingleDriver
 from time import sleep
 
 
-class BasePage():
+class MyDriver():
+    _instance = None
+
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super(MyDriver, cls).__new__(cls, *args, **kwargs)
+            cls.driver = webdriver.Firefox()
+        return cls._instance
+
+
+class BasePage(MyDriver):
     """
     基类 用作初始化 封装常用操作
     """
@@ -12,10 +23,11 @@ class BasePage():
         """
         初始化driver
         """
-        self.driver = webdriver.Firefox()
+        # self.driver = SingleDriver().driver
         self.calurl = r'http://cal.apple886.com/'
         self.digit_btn = (By.ID, 'simple{}')
         self.open_page()
+        self.driver.maximize_window()
 
     def open_page(self):
         """打开计算页"""
@@ -44,5 +56,6 @@ class BasePage():
         self.driver.close()
 
 
-
-
+if __name__ == "__main__":
+    a = BasePage()
+    b = BasePage()

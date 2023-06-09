@@ -78,6 +78,7 @@ class CalElement(BasePage):
 
 # class Cal_Scene():
 #     """计算场景 加减乘除"""
+
     def add(self, a, b):
         """加"""
         self.find_digit_btn(a).click()
@@ -89,7 +90,8 @@ class CalElement(BasePage):
     def subtract(self,a,b):
         """减"""
         self.find_digit_btn(a).click()
-        self.devide_ele().click()
+        self.subtract_ele().click()
+        self.find_digit_btn(b).click()
         self.equal_ele().click()
         return self.get_result()
 
@@ -97,6 +99,7 @@ class CalElement(BasePage):
         """乘"""
         self.find_digit_btn(a).click()
         self.multiply_ele().click()
+        self.find_digit_btn(b).click()
         self.equal_ele().click()
         return self.get_result()
 
@@ -104,6 +107,7 @@ class CalElement(BasePage):
         """除"""
         self.find_digit_btn(a).click()
         self.devide_ele().click()
+        self.find_digit_btn(b).click()
         self.equal_ele().click()
         return self.get_result()
 
