@@ -1,6 +1,6 @@
 # V1 pytest版本
 from utils.get_jsondata import get_jsondata
-from ddt import ddt, data, unpack
+# from ddt import ddt, data, unpack
 from pages.cal_page import CalElement
 import pytest
 
