@@ -6,7 +6,7 @@ def get_jsondata(name):
     读取data下的json测试数据
     """
     data_path = BASE_DIR + r'/data/{}'.format(name)
-    with open(data_path, 'r') as f:
+    with open(data_path, 'r', encoding='UTF-8') as f:
         data = json.load(f)
     print(data)
     print(data_path)

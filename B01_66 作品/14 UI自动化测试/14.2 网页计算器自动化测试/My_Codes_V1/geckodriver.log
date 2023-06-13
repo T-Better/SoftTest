@@ -1,0 +1,257 @@
+1686626562379	geckodriver	INFO	Listening on 127.0.0.1:12199
+1686626564842	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12200" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8Rn2gL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686626565412	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686626565418	Marionette	INFO	Listening on port 12210
+WebDriver BiDi listening on ws://127.0.0.1:12200
+Read port: 12210
+1686626565551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12200/devtools/browser/ce0e8de9-0095-4aaa-b66f-9fc44edc621a
+1686638501237	Marionette	INFO	Stopped listening on port 12210
+Dynamically enable window occlusion 1
+g command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3058" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilezDnCBX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686638032696	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686638032701	Marionette	INFO	Listening on port 3067
+Read port: 3067
+WebDriver BiDi listening on ws://127.0.0.1:3058
+1686638032818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3058/devtools/browser/6e05bf3c-ddf5-4827-bd12-17a0d22ba358
+1686638500212	Marionette	INFO	Stopped listening on port 3067
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1686638500269	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:207
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:575
+n port 1983
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1686638792279	geckodriver	INFO	Listening on 127.0.0.1:2446
+1686638795310	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2447" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileaOWCXz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686638795770	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686638795777	Marionette	INFO	Listening on port 2456
+Read port: 2456
+WebDriver BiDi listening on ws://127.0.0.1:2447
+1686638795919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2447/devtools/browser/fc3b1e5d-5bfb-4617-900c-bdb02fc6d586
+1686638800633	Marionette	INFO	Stopped listening on port 2456
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1686638863062	geckodriver	INFO	Listening on 127.0.0.1:3625
+1686638866128	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3626" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile68sHlz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686638866508	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686638866513	Marionette	INFO	Listening on port 3634
+Read port: 3634
+WebDriver BiDi listening on ws://127.0.0.1:3626
+1686638866624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3626/devtools/browser/0ee91b93-9461-4c33-87a5-a218c81265eb
+1686638874222	Marionette	INFO	Stopped listening on port 3634
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1686638983779	geckodriver	INFO	Listening on 127.0.0.1:3727
+1686638986846	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3728" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile615xxZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686638987223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686638987228	Marionette	INFO	Listening on port 3736
+Read port: 3736
+WebDriver BiDi listening on ws://127.0.0.1:3728
+1686638987330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3728/devtools/browser/fe7c3eca-16b2-426b-a5b7-8e49dec7a6a6
+1686639032332	Marionette	INFO	Stopped listening on port 3736
+Dynamically enable window occlusion 1
+1686639835751	geckodriver	INFO	Listening on 127.0.0.1:4572
+1686639838807	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileTZioHE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686639839195	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686639839200	Marionette	INFO	Listening on port 4582
+Read port: 4582
+WebDriver BiDi listening on ws://127.0.0.1:4573
+1686639839311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:4573/devtools/browser/e302e8eb-ce1d-43ee-86c8-0f6bd3f546f8
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1686639993988	Marionette	INFO	Stopped listening on port 4582
+Dynamically enable window occlusion 1
+1686641266319	geckodriver	INFO	Listening on 127.0.0.1:5570
+1686641269361	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5571" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile83mwXw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686641269749	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686641269754	Marionette	INFO	Listening on port 5586
+Read port: 5586
+WebDriver BiDi listening on ws://127.0.0.1:5571
+1686641269860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:5571/devtools/browser/aaf56915-36c2-40cd-9aa5-6a76329f9cc3
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1686641585626	Marionette	INFO	Stopped listening on port 5586
+Dynamically enable window occlusion 1
+ng command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5787" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletRHF5Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686641453658	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686641453663	Marionette	INFO	Listening on port 5796
+Read port: 5796
+WebDriver BiDi listening on ws://127.0.0.1:5787
+1686641453765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:5787/devtools/browser/cca9584d-2857-4fc9-bf8a-daa866579092
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1686641584624	Marionette	INFO	Stopped listening on port 5796
+Dynamically enable window occlusion 1
+ng command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileofsnQ8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686641572517	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686641572522	Marionette	INFO	Listening on port 5984
+Read port: 5984
+WebDriver BiDi listening on ws://127.0.0.1:5975
+1686641572631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:5975/devtools/browser/afa76dc9-04da-4b73-94fe-3eb2104c9b29
+1686641583220	Marionette	INFO	Stopped listening on port 5984
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1686641717175	geckodriver	INFO	Listening on 127.0.0.1:6093
+1686641720219	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6094" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile4GLrRP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686641720624	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686641720629	Marionette	INFO	Listening on port 6103
+Read port: 6103
+WebDriver BiDi listening on ws://127.0.0.1:6094
+1686641720732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:6094/devtools/browser/79e1649a-bd74-4830-8799-3c326beaffb7
+1686641729523	Marionette	INFO	Stopped listening on port 6103
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1686641934063	geckodriver	INFO	Listening on 127.0.0.1:12938
+1686641937098	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile84wTGv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686641937471	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686641937476	Marionette	INFO	Listening on port 12948
+Read port: 12948
+WebDriver BiDi listening on ws://127.0.0.1:12939
+1686641937585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12939/devtools/browser/b55cf3e6-ea1c-4252-acad-9235b979b2df
+1686641968885	Marionette	INFO	Stopped listening on port 12948
+Dynamically enable window occlusion 1
+1686641968907	addons.xpi	ERROR	Failed to download system add-on addons-restricted-domains@mozilla.com: Error: Failed downloading via ServiceRequest, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error(resource://gre/modules/addons/ProductAddonChecker.jsm:464:16) JS Stack trace: fail@ProductAddonChecker.jsm:464:16
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+console.error: (new AbortError("IndexedDB: main/nimbus-preview getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1686642237315	geckodriver	INFO	Listening on 127.0.0.1:13286
+1686642240360	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenbJnyL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686642240756	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686642240761	Marionette	INFO	Listening on port 13295
+Read port: 13295
+WebDriver BiDi listening on ws://127.0.0.1:13287
+1686642240861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:13287/devtools/browser/da035fcd-99d1-4ac5-a68f-a7db0eb593d6
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1686642259368	Marionette	INFO	Stopped listening on port 13295
+Dynamically enable window occlusion 1
+1686642402347	geckodriver	INFO	Listening on 127.0.0.1:13525
+1686642405396	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13526" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenWjF4V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686642405785	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686642405791	Marionette	INFO	Listening on port 13536
+Read port: 13536
+WebDriver BiDi listening on ws://127.0.0.1:13526
+1686642405892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:13526/devtools/browser/ea4ab451-60ac-4a4a-a405-52b4217b2808
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1686644448320	Marionette	INFO	Stopped listening on port 13536
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1686644448367	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:207
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+1686646669281	geckodriver	INFO	Listening on 127.0.0.1:5365
+1686646672320	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5366" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileTPjZqA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686646672711	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686646672717	Marionette	INFO	Listening on port 5375
+Read port: 5375
+WebDriver BiDi listening on ws://127.0.0.1:5366
+1686646672821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:5366/devtools/browser/e7d2db34-25f6-4207-98df-ef0955d2d1e5
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1686646729236	Marionette	INFO	Stopped listening on port 5375
+Dynamically enable window occlusion 1

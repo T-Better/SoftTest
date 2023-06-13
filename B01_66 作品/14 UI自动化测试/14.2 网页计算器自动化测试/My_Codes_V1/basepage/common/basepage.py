@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from config import *
 from utils.singledriver import SingleDriver
 from time import sleep
 
@@ -24,15 +25,15 @@ class BasePage(MyDriver):
         初始化driver
         """
         # self.driver = SingleDriver().driver
-        self.calurl = r'http://cal.apple886.com/'
+        self.open_page(CALURL)
         self.digit_btn = (By.ID, 'simple{}')
-        self.open_page()
-        self.driver.maximize_window()
 
-    def open_page(self):
+
+    def open_page(self,calurl):
         """打开计算页"""
         self.driver.implicitly_wait(10)
-        self.driver.get(self.calurl)
+        self.driver.get(calurl)
+        self.driver.maximize_window()
 
     # def find_element(self, by,element):
     #     """重写find_element，加了个sleep"""

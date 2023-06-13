@@ -1,0 +1,18 @@
+# [pytest]
+
+# 添加命令行参数
+# addopts = -s
+
+# 文件搜索路径
+# testpaths = ./testcases
+
+# 文件名称
+# python_file = test_*.py
+
+# 类名称
+# python_classes = Test*
+
+# 方法名称
+# python_functions = test_*
+
+
