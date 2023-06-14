@@ -1,5 +1,6 @@
 # V1 pytest版本
 from utils.get_jsondata import get_jsondata
+from utils.get_exceldata import *
 from config import *
 from pages.cal_page import CalElement
 import pytest, allure
@@ -9,20 +10,22 @@ class TestCal():
     """
     计算测试 相当于业务层
     """
-    @pytest.mark.parametrize('a,b,expect', get_jsondata('caladd.json'))
+    # @pytest.mark.parametrize('a,b,expect', get_jsondata('caladd.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_adddata())
     @allure.story('测试增加按钮，共4个case,3p1f')
     def test_add(self, a, b, expect):
         """
         expect:我们预期值
         res:实际计算结果
         """
-        # print(a, b, expect)
+        print(a, b, expect)
         add_res = CalElement().add(a,b)   # 进行计算
         # print(add_res)
         assert add_res == str(expect)
 
     @allure.story('测试减按钮，共4个case,3p1f')
-    @pytest.mark.parametrize('a,b,expect',get_jsondata('calsubtract.json'))
+    # @pytest.mark.parametrize('a,b,expect',get_jsondata('calsubtract.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_subdata())
     def test_subtract(self, a, b, expect):
         """测试减法"""
         subtract_res = CalElement().subtract(a,b)
@@ -30,7 +33,8 @@ class TestCal():
         assert subtract_res == str(expect)
 
     @allure.story('测试乘法按钮，共4个case,3p1f')
-    @pytest.mark.parametrize('a,b,expect',get_jsondata('calmultiply.json'))
+    # @pytest.mark.parametrize('a,b,expect',get_jsondata('calmultiply.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_muldata())
     def test_multiply(self, a, b, expect):
         """测试乘法"""
         multiply_res = CalElement().multiply(a, b)
@@ -38,7 +42,8 @@ class TestCal():
         assert multiply_res == str(expect)
 
     @allure.story('测试除法按钮，共4个case,3p1f')
-    @pytest.mark.parametrize('a,b,expect', get_jsondata('caldevide.json'))
+    # @pytest.mark.parametrize('a,b,expect', get_jsondata('caldevide.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_devdata())
     def test_devide(self, a, b, expect):
         """测试除法"""
         devide_res = CalElement().devide(a, b)
