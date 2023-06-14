@@ -13,7 +13,8 @@
     - 持久测试_监控linux系统Cpu、内存、Python进程等shell脚本；
   
 ### 14 UI自动化测试：
-  - 网页计算器自动化测试
+  - 网页计算器自动化测试:
+    - 技术：python+selenium+openpyxl+pytest+allure
 
 ### 66 其他脚本：
     - python+selenium写的抢购脚本；
