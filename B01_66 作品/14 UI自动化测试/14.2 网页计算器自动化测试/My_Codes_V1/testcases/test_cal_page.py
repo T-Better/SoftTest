@@ -4,12 +4,15 @@ from utils.get_exceldata import *
 from config import *
 from pages.cal_page import CalElement
 import pytest, allure
+from loguru import logger
 
 @allure.feature('网页计算器计算测试')
 class TestCal():
     """
     计算测试 相当于业务层
     """
+    # logging.debug('测试增加按钮 debug')
+    @logger.catch
     # @pytest.mark.parametrize('a,b,expect', get_jsondata('caladd.json'))
     @pytest.mark.parametrize('a,b,expect', GetData().get_adddata())
     @allure.story('测试增加按钮，共4个case,3p1f')
@@ -20,9 +23,9 @@ class TestCal():
         """
         print(a, b, expect)
         add_res = CalElement().add(a,b)   # 进行计算
-        # print(add_res)
         assert add_res == str(expect)
 
+    # logging.info('测试减法按钮 info')
     @allure.story('测试减按钮，共4个case,3p1f')
     # @pytest.mark.parametrize('a,b,expect',get_jsondata('calsubtract.json'))
     @pytest.mark.parametrize('a,b,expect', GetData().get_subdata())
@@ -32,6 +35,7 @@ class TestCal():
         print(subtract_res)
         assert subtract_res == str(expect)
 
+    # logging.warning('测试乘法按钮 warning')
     @allure.story('测试乘法按钮，共4个case,3p1f')
     # @pytest.mark.parametrize('a,b,expect',get_jsondata('calmultiply.json'))
     @pytest.mark.parametrize('a,b,expect', GetData().get_muldata())
@@ -41,6 +45,7 @@ class TestCal():
         print(multiply_res)
         assert multiply_res == str(expect)
 
+    # logging.error('测试除法按钮 error')
     @allure.story('测试除法按钮，共4个case,3p1f')
     # @pytest.mark.parametrize('a,b,expect', get_jsondata('caldevide.json'))
     @pytest.mark.parametrize('a,b,expect', GetData().get_devdata())

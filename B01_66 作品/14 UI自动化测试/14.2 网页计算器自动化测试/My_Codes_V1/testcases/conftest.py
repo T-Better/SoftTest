@@ -1,7 +1,7 @@
 import pytest
-from pages.cal_page import CalElement
-from config import *
-from basepage.common.basepage import BasePage
+# from pages.cal_page import CalElement
+# from config import *
+# from basepage.common.basepage import BasePage
 
 
 @pytest.fixture(scope='class')
