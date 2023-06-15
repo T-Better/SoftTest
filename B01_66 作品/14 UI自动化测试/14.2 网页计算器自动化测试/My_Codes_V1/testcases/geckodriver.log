@@ -9061,3 +9061,16 @@ JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WE
 JavaScript warning: http://sofire.bdstatic.com/js/dfxaf3-635b4cd6.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1686722325415	Marionette	INFO	Stopped listening on port 3819
 Dynamically enable window occlusion 1
+1686814200756	geckodriver	INFO	Listening on 127.0.0.1:12807
+1686814203796	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12808" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenX44fh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686814204148	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1686814204153	Marionette	INFO	Listening on port 12818
+Read port: 12818
+WebDriver BiDi listening on ws://127.0.0.1:12808
+1686814204336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:12808/devtools/browser/90f162ec-174e-4989-865c-237c77b8de9e
+1686814219513	Marionette	INFO	Stopped listening on port 12818
+Dynamically enable window occlusion 1

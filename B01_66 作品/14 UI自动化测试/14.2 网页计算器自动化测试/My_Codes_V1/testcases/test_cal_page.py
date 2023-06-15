@@ -7,12 +7,12 @@ import pytest, allure
 from loguru import logger
 from utils.cal_testlog import trace
 
+
 @allure.feature('网页计算器计算测试')
 class TestCal():
     """
     计算测试 相当于业务层
     """
-    # logging.debug('测试增加按钮 debug')
     @logger.catch
     # @pytest.mark.parametrize('a,b,expect', get_jsondata('caladd.json'))
     @pytest.mark.parametrize('a,b,expect', GetData().get_adddata())
@@ -23,38 +23,39 @@ class TestCal():
         res:实际计算结果
         """
         print(a, b, expect)
-        add_res = CalElement().add(a,b)   # 进行计算
+        cale = CalElement()
+        add_res = cale.add(a,b)   # 进行计算
         assert add_res == str(expect)
 
-    # # logging.info('测试减法按钮 info')
-    # @allure.story('测试减按钮，共4个case,3p1f')
-    # # @pytest.mark.parametrize('a,b,expect',get_jsondata('calsubtract.json'))
-    # @pytest.mark.parametrize('a,b,expect', GetData().get_subdata())
-    # def test_subtract(self, a, b, expect):
-    #     """测试减法"""
-    #     subtract_res = CalElement().subtract(a,b)
-    #     print(subtract_res)
-    #     assert subtract_res == str(expect)
-    #
-    # # logging.warning('测试乘法按钮 warning')
-    # @allure.story('测试乘法按钮，共4个case,3p1f')
-    # # @pytest.mark.parametrize('a,b,expect',get_jsondata('calmultiply.json'))
-    # @pytest.mark.parametrize('a,b,expect', GetData().get_muldata())
-    # def test_multiply(self, a, b, expect):
-    #     """测试乘法"""
-    #     multiply_res = CalElement().multiply(a, b)
-    #     print(multiply_res)
-    #     assert multiply_res == str(expect)
-    #
-    # # logging.error('测试除法按钮 error')
-    # @allure.story('测试除法按钮，共4个case,3p1f')
-    # # @pytest.mark.parametrize('a,b,expect', get_jsondata('caldevide.json'))
-    # @pytest.mark.parametrize('a,b,expect', GetData().get_devdata())
-    # def test_devide(self, a, b, expect):
-    #     """测试除法"""
-    #     devide_res = CalElement().devide(a, b)
-    #     print(devide_res)
-    #     assert devide_res == str(expect)
+    @logger.catch
+    @allure.story('测试减按钮，共4个case,3p1f')
+    # @pytest.mark.parametrize('a,b,expect',get_jsondata('calsubtract.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_subdata())
+    def test_subtract(self, a, b, expect):
+        """测试减法"""
+        subtract_res = CalElement().subtract(a,b)
+        print(subtract_res)
+        assert subtract_res == str(expect)
+
+    @logger.catch
+    @allure.story('测试乘法按钮，共4个case,3p1f')
+    # @pytest.mark.parametrize('a,b,expect',get_jsondata('calmultiply.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_muldata())
+    def test_multiply(self, a, b, expect):
+        """测试乘法"""
+        multiply_res = CalElement().multiply(a, b)
+        print(multiply_res)
+        assert multiply_res == str(expect)
+
+    @logger.catch
+    @allure.story('测试除法按钮，共4个case,3p1f')
+    # @pytest.mark.parametrize('a,b,expect', get_jsondata('caldevide.json'))
+    @pytest.mark.parametrize('a,b,expect', GetData().get_devdata())
+    def test_devide(self, a, b, expect):
+        """测试除法"""
+        devide_res = CalElement().devide(a, b)
+        print(devide_res)
+        assert devide_res == str(expect)
 
 
 if __name__ == "__main__":
