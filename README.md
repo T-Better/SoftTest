@@ -14,11 +14,11 @@
   
 ### 14 UI自动化测试：
   - 网页计算器自动化测试:
-    - 技术：python+selenium+openpyxl+pytest+allure
+    - 技术：python+selenium+openpyxl+pytest+allure+loguru
 
 ### 66 其他脚本：
     - python+selenium写的抢购脚本；
-    - 清日志Shell脚本；对原代码重新优化封装（根据po设计模式）
+    - 清日志Shell脚本；对原代码重新封装优化
 ---------------------------
 个人博客：
 https://www.cnblogs.com/T-Better/
