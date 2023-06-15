@@ -16,3 +16,4 @@
 版本：
     bate1：功能基本已实现，数据驱动用的是json
     bate2：数据驱动已改为excel
+    bate3：增加了日志记录功能，用的是Loguru
