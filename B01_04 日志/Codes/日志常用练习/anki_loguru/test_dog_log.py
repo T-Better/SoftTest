@@ -1,5 +1,5 @@
 # cal_testlog.py
-from loguru import logger
+import loguru
 import time, os
 
 BASE_DIR = os.path.abspath(os.path.dirname("__file__"))
