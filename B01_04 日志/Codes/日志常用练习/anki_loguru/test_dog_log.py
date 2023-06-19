@@ -1,6 +1,7 @@
 # cal_testlog.py
 import loguru
 import time, os
+from loguru import logger
 
 BASE_DIR = os.path.abspath(os.path.dirname("__file__"))
 now_dt = time.strftime("%Y%m%d")

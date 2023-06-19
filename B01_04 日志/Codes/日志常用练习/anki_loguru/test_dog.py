@@ -1,6 +1,5 @@
 # test_dog.py
 # TODO
-from test_dog_log import trace
 
 
 class test_dog():
