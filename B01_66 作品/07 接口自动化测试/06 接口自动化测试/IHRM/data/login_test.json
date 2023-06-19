@@ -1,0 +1,12 @@
+[
+  {
+    "desc": "case001 登录成功",
+    "login_data": {
+      "mobile": "13800000002",
+      "password": "888itcast.CN764%..."
+    },
+    "status_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  }]

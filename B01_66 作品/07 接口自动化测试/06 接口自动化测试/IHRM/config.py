@@ -6,6 +6,8 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 LOGIN_JDATA = r'{}\data\login.json'.format(BASE_DIR)
 
+IHRM_BASE_URL = r'http://ihrm-java.itheima.net/#'
+
 
 
 

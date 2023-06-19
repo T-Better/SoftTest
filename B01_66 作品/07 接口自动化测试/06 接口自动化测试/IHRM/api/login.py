@@ -4,11 +4,12 @@ import requests
 
 class IhrmLogin(object):
     def __init__(self):
-        self.url = r'http://ihrm-java.itheima.net/#/login'
+        self.url = r'http://ihrm-java.itheima.net/api/sys/login'
+
 
     def ihrm_login(self, login_data):
         """login_data：入参"""
-        return requests.get(self.url, data=login_data)
+        return requests.post(self.url, json=login_data)
 
 if __name__ == "__main__":
     ihrml = IhrmLogin()

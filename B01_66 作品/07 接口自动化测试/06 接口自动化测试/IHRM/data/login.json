@@ -110,6 +110,7 @@
   },
   {
     "desc": "case011 无参",
+    "login_data": {},
     "status_code": 200,
     "success": false,
     "code": 99999,
