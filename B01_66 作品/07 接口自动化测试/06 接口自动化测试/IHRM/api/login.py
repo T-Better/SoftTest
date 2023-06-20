@@ -11,6 +11,7 @@ class IhrmLogin(object):
         """login_data：入参"""
         return requests.post(self.url, json=login_data)
 
+
 if __name__ == "__main__":
     ihrml = IhrmLogin()
     print(ihrml.ihrm_login())
