@@ -14,7 +14,7 @@ print(cal_log)
 # 保存时间为10天，10天后清理10天前的
 # 其他模块（test_a_log.py）执行过程也要记录进去
 
-
+trace = logger.add(cal_log, rotation="10 MB",encoding='UFT-8', enqueue=True, retention='10 days')
 
 
 
