@@ -7,7 +7,7 @@ class test_dog():
     def set_name(self, name):
         self.name = name
 
-    @logger.catch
+    # TODO
     def show_name(self):
         print(self.name)
 
