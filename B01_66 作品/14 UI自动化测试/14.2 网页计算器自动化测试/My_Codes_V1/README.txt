@@ -1,2 +1,0 @@
-按照Round3学习方法 现进行第三轮 独立编写，主要还是用unittest
-下个版本改成使用Pytest，同时加上logging和allure
