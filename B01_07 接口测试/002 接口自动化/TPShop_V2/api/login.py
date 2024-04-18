@@ -11,17 +11,19 @@ class LoginApi():
         # 带self
         self.login_url = r'http://localhost/index.php?m=Home&c=User&a=do_login'
         self.login_verifycode_url = r'http://localhost/index.php?m=Home&c=User&a=verify'
+        self.session = requests.Session()
 
-    def get_login_verifycode(self, session):
-        return session.get(self.login_verifycode_url)
+    # def get_login_verifycode(self, session):
+    #     return session.get(self.login_verifycode_url)
 
     def login(self,username,password,verify_code):
         login_data = {"username": username,"password": password,"verify_code": verify_code}
-        return session.post(self.login_url, data=login_data)
+        return self.session.post(self.login_url, data=login_data)
 
 
 if __name__ == "__main__":
-    session = requests.Session()
+    # session = requests.Session()
     loginapi = LoginApi()
-    vres = loginapi.get_login_verifycode(session)
-    res = loginapi.login()
+    # vres = loginapi.get_login_verifycode(session)
+    res = loginapi.login('13488888888','123456','8888')
+    print(res.status_code)
